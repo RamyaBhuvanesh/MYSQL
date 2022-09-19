@@ -1,0 +1,46 @@
+# In comment promt.
+# To get start use this comments
+
+mysql -u root -p
+
+# enter your password:
+
+password:*****
+
+# now lets start coding
+# mysql comments
+
+# display the list of database:
+
+SHOW DATABASES; or show databases;  # it is not case-sensitive
+
+# create new data-base
+
+CREATE DATABASE typo;
+
+# use database
+
+USE typo;
+
+# display tables
+
+SHOW TABLES; # It shows rows and columns
+
+# create tables
+
+# Basically there are two datatypes oin mysql
+    # 1. INT
+    # 2. VARCHAR(numbers of word want as max)
+    # 3. If you want to use date you can use VARCHAR(numbers of word want as max) # yyyy-mm-dd
+
+CREATE TABLE classroom(id INT, name VARCHAR(20), rollnumber INT, location VARCHAR(20)); 
+
+# Insert table data
+
+
+
+
+
+
+
+
